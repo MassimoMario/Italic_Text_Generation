@@ -34,7 +34,7 @@ I took in consideration 3 models:
 - [Results](#Results)
   
 # Structure
-* [RNN_cVAE.ipynb](RNN_cVAE.ipynb] is a notebook where all the models are defined and trained, with examples of generated text in those three styles
+* [RNN_cVAE.ipynb](RNN_cVAE.ipynb) is a notebook where all the models are defined and trained, with examples of generated text in those three styles
 * [text_corpus](text_corpus) repository contains the three corpus used for training
 * [pretrained](pretrained) repository contains the pre-trained models
   
