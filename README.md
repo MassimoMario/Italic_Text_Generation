@@ -8,9 +8,9 @@ The VAE is conditioned using style labels, as follows:
 The Word Embedding layer has been initialized using a Word2vec model.
 
 The three text corpus taken in consideration for training are:
-* Dante: _Divina Commedia_
-* Italian: _Uno, nessuno e centomila_ by Luigi Pirandello, and _I Malavoglia_ by Giovanni Verga
-* Neapolitan: _Lo cunto de li cunti_ by Giambattista Basile
+* **Dante**: _Divina Commedia_
+* **Italian**: _Uno, nessuno e centomila_ by Luigi Pirandello, and _I Malavoglia_ by Giovanni Verga
+* **Neapolitan**: _Lo cunto de li cunti_ by Giambattista Basile
 
 I followed this idea to condition a VAE:
 
