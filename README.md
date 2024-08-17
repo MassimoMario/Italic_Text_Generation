@@ -101,5 +101,5 @@ The **SA**, Style Accuracy, and **PPL** $= 2^{- \frac{1}{N} \sum_i log_2 \left( 
 
 Here's the training curves for the three models:
 
-TRAINING IMAGE
+<img src="images/training.png" width=80% height=80%>
 
