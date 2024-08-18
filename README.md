@@ -32,9 +32,14 @@ The three text corpus taken in consideration for training are:
 - [Results](#Results)
   
 # Structure
-* [RNN_cVAE.ipynb](RNN_cVAE.ipynb) is a notebook where all the models are defined and trained, with examples of generated text in those three styles
-* [text_corpus](text_corpus) repository contains the three corpus used for training
-* [pretrained](pretrained) repository contains the pre-trained models
+* [`PRE_TRAINED_RNN_cVAE.ipynb`](PRE_TRAINED_RNN_cVAE.ipynb) is the main notebook containing pre trained models, with examples of generated text in those three styles and accuracy computations
+* [`RNN_cVAE.ipynb`](RNN_cVAE.ipynb) is a notebook where all the models are defined and trained, with examples of generated text in those three styles and accuracy computations
+* [`models.py`](models.py) is the module containing model class definitions
+* [`config_dataset.py`](config_dataset.py) is the module containing the functions for making the dataset in form of torch Dataloaders
+* [`training_function`](training_function.py) is the module containing the training function for the three models and for the CNN Classifier
+* [`accuracy.py`](accuracy.py) is the module containing the accuracy function
+* [`text_corpus`](text_corpus) repository contains the three corpus used for training
+* [`pretrained`](pretrained) repository contains the pre-trained models
   
 # Requirements
 * Numpy
