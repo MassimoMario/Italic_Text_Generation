@@ -89,6 +89,9 @@ pip install torch
 ```bash
 pip install gensim
 ```
+
+Run cells from [`RNN_cVAE.ipynb`](RNN_cVAE.ipynb) notebook if you want to train the models yourself, or run [`PRE_TRAINED_RNN_cVAE.ipynb`](PRE_TRAINED_RNN_cVAE.ipynb) to use pre-trained models. Both notebooks have sentence generation examples and accuracy computation after every model definition.
+
 # Quantitative results
 
 
