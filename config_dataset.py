@@ -32,7 +32,7 @@ def divide_text(text, sequence_length):
 
 
 def divide_text_equal_seq_length(text, sequence_length):
-    ''' Function dividing text in order to feed the Word2vec model
+    ''' Function dividing text to prepare the dataset
     
     Inputs
     ----------
@@ -79,10 +79,7 @@ def custom_dataset(file1 : str, file2 : str, file3 : str, sequence_length, embed
     word2vec : trained Word2vec model
     idx2word : dictionary from indices to words
     word2idx : dictionart from words to indices
-    vocab_size : int, number of unique tokens
-    style0_test : torch tensor containing every test data belonging to first style
-    style1_test : torch tensor containing every test data belonging to second style
-    style3_test : torch tensor containing every test data belonging to third style'''
+    vocab_size : int, number of unique tokens '''
 
     # reading the two corpus
     with open(file1, 'r', encoding='utf-8') as f:
