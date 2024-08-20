@@ -4,7 +4,7 @@ Pytorch implementation of Text Generation.
 The goal of this project is to generate text in _Dante, Italian_, and _Neapolitan_ language style, using a Conditional Variational Autoencoder where both Encoder and Decoder are Recurrent Neural Networks.
 The VAE is conditioned using style labels, following the idea taken from [Medium website](https://medium.com/@sofeikov/implementing-conditional-variational-auto-encoders-cvae-from-scratch-29fcbb8cb08f):
 
-<img src="images/cVAE.png" width=70% height=70%>
+<img src="images/cVAE.png" width=75% height=75%>
 
 Basically a one-hot encoded label is projected into _latent space_ dimensions and added to the latent variable in order to decode an output belonging to that style label.
 
